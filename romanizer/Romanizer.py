@@ -299,4 +299,4 @@ class Romanizer(object):
             else:
                 _romanized.append(char)
 
-        return '-'.join(_romanized)
+        return ''.join(_romanized)
